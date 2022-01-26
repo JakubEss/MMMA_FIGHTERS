@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500&family=Roboto:ital,wght@1,100;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.heading {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.margin-top {
+    margin-top: 30px;
+}
+
+.margin-top-small {
+    margin-top: 30px;
+}
+
+.margin-top-big {
+    margin-top: 100px;
+}
+
+.top-bottom {
+    width: 60%;
+    margin: 20px auto;
+    border: 2px solid #221111;
+}
+
+
+.text-font {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.padding {
+    padding: 0 3%;
+}
+
+
+li {
+    color: #39130A;
+    font-weight: 600;
+}
+
+
+/* --------------------Colors----------- */
+
+.color-main {
+    color: #444444;
+}
+
+.bg-color-navbar-toggler {
+    background-color: #d40b0b;
+}
+
+.color-navbar-toggler {
+    color: black;
+}
+
+
+.bg-color-warning {
+    background-color: #d40b0b;
+}
+
+.bg-color-lessons-cards {
+    background-color: #000;
+}
+
+.color-lessons-cards {
+    color: #fff;
+}
+
+.color-student-name {
+    color: #39130A;
+}
+
+.bg-color-click-her-icon {
+    color: #fb0808;
+}
+
+.color-big-text {
+    color: #444444;
+}
+
+.color-sm-text {
+    color: #fff;
+}
+
+.bg-color-lessons {
+    background-color: #000000;
+}
+
+.bg-color-footer {
+    background-color: #1a1a1a;
+}
+
+/* --------------------------    bootstrap-------------- */
+.navbar-dark .navbar-brand {
+    color: #fb0808;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fb0808;
+}
+
+/* --------------------Buttons----------------------- */
+.btn-members-login {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
+.logo:hover {
+    font-size: 25px;
+
+}
+
+
+/* --------------------------Navbar--------------- */
+.logo {
+    margin-left: 2.5vw;
+}
+
+.slash {
+    color: #fff;
+}
+
+.after-slash {
+    color: #c2bbbb;
+}
+
+/* Navbat Toggler */
+.burger {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.navmenu {
+    margin-left: 15px;
+}
+
+p.nav-link {
+    font-size: 19px;
+    cursor: pointer;
+}
+
+p.nav-link:hover {
+    font-size: 25px;
+}
+
+.navmenu a {
+    font-size: 19px;
+}
+
+.navmenu a:hover {
+    font-size: 25px;
+}
+
+.banner-area {
+    width: 100%;
+    height: 650px;
+    position: relative;
+    background-image: url(banner.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 4px solid #fb0808;
+}
+
+.main-heading {
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    padding: 3%;
+
+}
+
+.main-heading h3 {
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+}
+
+
+.warning {
+    margin: 0 auto;
+    width: 90%;
+    min-height: 50px;
+    max-height: 100px;
+    text-align: center;
+    border-radius: 4px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.warning-header a {
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Exo', sans-serif;
+    line-height: 50px;
+    letter-spacing: 2px;
+    text-decoration: none;
+
+
+}
+
+
+#welcom-section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, auto);
+
+}
+
+.welcome {
+    grid-area: 1 / 1 / 4 / 13;
+}
+
+.philosophy {
+    grid-area: 4 / 1 / 7 / 13;
+}
+
+.mission {
+    grid-area: 7 / 1 / 10 / 13;
+}
+
+.focus {
+    grid-area: 10 / 1 / 13 / 13;
+}
+
+.footer-container {
+
+    padding: 30px 0;
+    height: 330px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+
+}
+
+.message {
+    grid-area: 2/1/3/6;
+}
+
+.adress {
+    grid-area: 3/1/4/6;
+}
+
+.phon {
+    grid-area: 4/1/5/6;
+}
+
+.email {
+    grid-area: 5/1/6/6;
+}
+
+.copyright {
+    grid-area: 6/1/6/7;
+}
+
+.content p {
+    color: #fff;
+}
+
+.social-media a i {
+    font-size: 180%;
+    color: #fff;
+}
+
+
+/*---------------------Media Queries----------------------*/
+
+@media(min-width: 576px) {
+
+    .text-font {
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'Exo', sans-serif;
+    }
+
+    .text {
+        text-align: justify;
+    }
+
+    .padding {
+        padding: 0 4%;
+    }
+
+    .margin-top {
+        margin-top: 50px;
+    }
+
+    /* Navbar */
+    .navmenu {
+        margin-left: 1vw;
+        margin-right: 1vw;
+    }
+
+    .banner-area {
+        height:600px;
+    }
+
+    .main-heading {
+        position: absolute;
+        left: 150px;
+        bottom: 100px;
+        height: 30%;
+        width: 40%;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .welcome {
+        grid-area: 1 / 1 / 3 / 13;
+    }
+
+    .philosophy {
+        grid-area: 3 / 1 / 9 / 7;
+    }
+
+    .mission {
+        grid-area: 9 / 5 / 13 / 8;
+
+    }
+
+    .focus {
+        grid-area: 3 / 7 / 9 / 13;
+    }
+
+
+
+    .list-mission {
+        margin-top: 15%;
+    }
+
+}
+
+@media(min-width:770px) and (max-width:991px) {
+
+
+    .navmenu {
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+
+}
+
+
+@media(min-width:992px) {
+
+    .margin-top {
+        margin-top: 100px;
+    }
+
+
+    .login {
+        display: none;
+    }
+
+    .navmenu {
+        margin-left: 6vw;
+        margin-right: 8vw;
+    }
+
+    .banner-area {
+        margin-top: 50px;
+    }
+
+    /* Warning */
+
+    .warning {
+        width: 60%;
+    }
+
+    .welcome {
+        grid-area: 1 / 1 / 5 / 13;
+    }
+
+    .philosophy {
+        grid-area: 5 / 1 / 13 / 5;
+    }
+
+    .mission {
+        grid-area: 5 / 5 / 13 / 9;
+    }
+
+    .focus {
+        grid-area: 5 / 9 / 13 / 13;
+    }
+
+    /* Footer */
+
+    .footer-container {
+
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        justify-items: center;
+
+    }
+
+    .facebook {
+        grid-area: 1/1/1/2;
+    }
+
+    .instagram {
+        grid-area: 1/2/1/3;
+    }
+
+    .youtube {
+        grid-area: 1/3/1/4;
+    }
+
+    .message {
+        grid-area: 2/2/2/3;
+    }
+
+    .adress {
+        grid-area: 3/1/3/2;
+    }
+
+    .phon {
+        grid-area: 3/2/3/3;
+    }
+
+    .email {
+        grid-area: 3/3/3/4;
+    }
+
+    .copyright {
+        grid-area: 4/2/4/3;
+    }
+
+}
+
+@media(min-width:1400px) {
+    .banner-area {
+        height: 800px;
+    }
+}
